@@ -12,6 +12,7 @@ About this project: Create professional marketing-themed website using ReactJS f
 
 ## Live Demo
 
+You can check the [live demo](https://hopeful-nobel-47d909.netlify.com/) to get first-hand experience of the website.
 
 ## Tutorial
 
