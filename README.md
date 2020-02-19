@@ -10,7 +10,6 @@ About this project: Create professional marketing-themed website using ReactJS f
 
 ![pic 4](https://user-images.githubusercontent.com/29656920/74821462-abd74d80-5329-11ea-9bca-39a488227ab6.png)
 
-
 ## Live Demo
 
 
