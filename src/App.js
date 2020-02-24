@@ -5,7 +5,7 @@
  */
 
 import React, { Component } from "react";
-import '../src/components/css/style.css'
+import './public/css/style.css'
 import Header from '../src/components/Header'
 
 

@@ -5,7 +5,7 @@
  */
 
 import React, { Component } from "react";
-import "./css/font-awesome.css";
+import '../public/css/font-awesome.css';
 import ReactHtmlParser, {
   processNodes,
   convertNodeToElement,

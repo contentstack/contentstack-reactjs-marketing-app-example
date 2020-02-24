@@ -5,8 +5,8 @@
  */
 
 import React, { Component } from "react";
-import "./css/style.css";
-import "./css/blog.css";
+import '../public/css/style.css'
+import '../public/css/blog.css';
 import $ from "jquery";
 import { getData } from "./Helper";
 import Footer from "./Footer";
