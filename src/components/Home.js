@@ -8,7 +8,7 @@ import React, { Component } from "react";
 import Typed from "react-typed";
 import Footer from "./Footer";
 import $ from "jquery";
-import "../assets/css/style.css";
+import "../staticAssets/css/style.css";
 import ReactHtmlParser, {
   processNodes,
   convertNodeToElement,

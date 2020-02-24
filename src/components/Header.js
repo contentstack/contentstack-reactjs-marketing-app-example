@@ -11,7 +11,7 @@ import Features from "./Features";
 import Home from "./Home";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Modal from "react-responsive-modal";
-import "../assets/css/style.css";
+import "../staticAssets/css/style.css";
 import { getData } from "./Helper";
 import BlogContent from "./BlogContent";
 import Blog from "./Blog";

@@ -6,10 +6,10 @@
 
 import React, { Component } from "react";
 import $ from "jquery";
-import '../assets/css/style.css';
+import '../staticAssets/css/style.css';
 import Footer from "../components/Footer";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import "../assets/css/blogsection.css";
+import "../staticAssets/css/blogsection.css";
 import BlogFooter from "./Blogfooter";
 
 class BlogContent extends Component {
