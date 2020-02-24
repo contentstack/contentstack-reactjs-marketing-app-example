@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import './public/bootstrap-3.3.6-dist/css/bootstrap.css'
-import './public/bootstrap-3.3.6-dist/css/bootstrap.min.css'
-import './public/css/font-awesome.css'
-import './public/css/icon-fonts.css'
-import './public/css/normalize.css'
-import './public/css/style.css'
-import './public/css/style1.css'
+import './assets/bootstrap-3.3.6-dist/css/bootstrap.css'
+import './assets/bootstrap-3.3.6-dist/css/bootstrap.min.css'
+import './assets/css/font-awesome.css'
+import './assets/css/icon-fonts.css'
+import './assets/css/normalize.css'
+import './assets/css/style.css'
+import './assets/css/style1.css'
 
 
 

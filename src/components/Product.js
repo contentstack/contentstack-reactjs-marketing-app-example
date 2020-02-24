@@ -11,7 +11,7 @@ import ReactHtmlParser, {
   convertNodeToElement,
   htmlparser2
 } from "react-html-parser";
-import "../public/css/style.css";
+import "../assets/css/style.css";
 import $ from "jquery";
 import { getData } from "./Helper";
 

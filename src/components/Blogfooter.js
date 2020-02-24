@@ -5,8 +5,8 @@
  */
 
 import React, { Component } from "react";
-import '../public/css/style.css';
-import '../public/css/blog.css';
+import '../assets/css/style.css';
+import '../assets/css/blog.css';
 import { getData } from "./Helper";
 
 class Blogfooter extends Component {

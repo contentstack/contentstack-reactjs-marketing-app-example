@@ -5,7 +5,7 @@
  */
 
 import React, { Component } from "react";
-import '../public/css/style.css';
+import '../assets/css/style.css';
 import Footer from "./Footer";
 import $ from "jquery";
 import ReactHtmlParser, {
