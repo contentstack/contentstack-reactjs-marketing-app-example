@@ -6,9 +6,9 @@
 
 import React, { Component } from "react";
 import Footer from "./Footer";
-import '../staticAssets/css/style.css';
-import 'react-modal-video/scss/modal-video.scss';
-import ModalVideo from 'react-modal-video';
+import "../staticAssets/css/style.css";
+import "react-modal-video/scss/modal-video.scss";
+import ModalVideo from "react-modal-video";
 import $ from "jquery";
 import ReactHtmlParser, {
   processNodes,

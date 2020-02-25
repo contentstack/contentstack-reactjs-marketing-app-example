@@ -24,11 +24,18 @@
 
 #post_img{
   margin-top: 85px;
-  left:60px
+  left:60px;
+  display: block;
+  margin: auto;
 }
 
+/* .row{
+ background-color: aquamarine;
+text-align: center;
+} */
+
 @media screen and (min-width: 0) and (max-width: 1024px) {
-  #blog_container {
+  /* #blog_container {
       margin-top: 50px;
   }
 
@@ -44,6 +51,10 @@
   #blog_section{
     left:0px;
     right:0px
+  } */
+
+  .container{
+    padding-top: 20px;
   }
  
 }

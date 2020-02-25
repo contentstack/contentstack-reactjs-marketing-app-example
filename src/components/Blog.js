@@ -5,8 +5,8 @@
  */
 
 import React, { Component } from "react";
-import '../staticAssets/css/style.css'
-import '../staticAssets/css/blog.css';
+import "../staticAssets/css/style.css";
+import "../staticAssets/css/blog.css";
 import $ from "jquery";
 import { getData } from "./Helper";
 import Footer from "./Footer";
@@ -17,8 +17,8 @@ class Blog extends Component {
     super(props);
 
     this.state = {
-      blogPage: "",
-      image: ""
+      blogPage: ""
+      // image: ""
     };
   }
 
@@ -29,18 +29,6 @@ class Blog extends Component {
       .then(data => {
         this.setState({
           blogPage: data
-        });
-      })
-      .catch(err => {
-        console.log(err);
-      });
-
-    getData(
-      `https://cdn.contentstack.io/v3/content_types/${process.env.REACT_APP_BLOG_IMAGE_URL_CONTENT_TYPE}/entries/${process.env.REACT_APP_BLOG_IMAGE_URL_ENTRY_UID}?environment=${process.env.REACT_APP_PUBLISH_ENVIRONMENT}&locale=en-us`
-    )
-      .then(data => {
-        this.setState({
-          image: data
         });
       })
       .catch(err => {
@@ -101,7 +89,9 @@ class Blog extends Component {
                                     )
                                   }
                                 >
-                                  <span>{value.title}</span>
+                                  <span className="spanTitle">
+                                    {value.title}
+                                  </span>
                                 </h1>
                                 <p class="content_style">
                                   {value.blog_content}
@@ -122,15 +112,6 @@ class Blog extends Component {
                           })}
                         </div>
                       </div>
-                      {this.state.image !== "" && (
-                        <div class="col-md-8" id="blog_img">
-                          <img
-                            className="img-responsive"
-                            src={this.state.image.data.entry.file.url}
-                            alt=""
-                          />
-                        </div>
-                      )}
                     </div>
                   </div>
                 </section>

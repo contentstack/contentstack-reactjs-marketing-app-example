@@ -57,11 +57,14 @@ class Home extends Component {
         window.location.pathname != "/features" &&
         window.location.pathname != "/about" &&
         window.location.pathname != "/blog" &&
-        window.location.pathname != "/blog/first-blog" &&
-        window.location.pathname != "/blog/second-blog" &&
-        window.location.pathname != "/blog/third-blog" &&
-        window.location.pathname != "/blog/fourth-blog" &&
-        window.location.pathname != "/blog/fifth-blog"
+        window.location.pathname !=
+          "/blog/Everything-You-Need-to-Know-About-Content-Personalization-Technology" &&
+        window.location.pathname !=
+          "/blog/Contentstacks-In-App-Search-Just-Got-Stronger-and-More-Flexible" &&
+        window.location.pathname !=
+          "/blog/How-Modern-Marketers-Can-Implement-AI-for-Content-Marketing" &&
+        window.location.pathname !=
+          "/blog/Contentstack-and-commercetools-Host-Retail-Industry-MACH-tail-Reception"
       ) {
         if ($(window).scrollTop() > 100) {
           $header.fadeIn().addClass("opaque");

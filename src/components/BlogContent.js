@@ -6,7 +6,7 @@
 
 import React, { Component } from "react";
 import $ from "jquery";
-import '../staticAssets/css/style.css';
+import "../staticAssets/css/style.css";
 import Footer from "../components/Footer";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "../staticAssets/css/blogsection.css";
@@ -43,28 +43,28 @@ class BlogContent extends Component {
     return (
       <>
         <section class="team-wrap" id="blog_container">
-          <div class="container">
-            <div class="row" style={{ "margin-bottom": "33px" }}>
-              <div
-                class="col-md-4 margin-top-50 margin-bottom"
-                id="blog_section"
-              >
-                <h2 class="color">
-                  <span>{this.props.location.state.blog_title}</span>
-                </h2>
-                <hr></hr>
-                <p>{this.props.location.state.blog_content}</p>
-                <Link to={"/blog"}>Return back...</Link>
-              </div>
-              <div class="col-md-8" id="post_img">
-                <img
-                  class="img-responsive"
-                  id="center"
-                  src={this.props.location.state.media.url}
-                  alt=""
-                />
-              </div>
-            </div>
+          <div
+            class="container"
+            style={{
+              display: "block",
+              "justify-content": "center",
+              margin: "auto",
+              "text-align": "center",
+              "margin-top": "5%"
+            }}
+          >
+            <h2 class="color">
+              <span>{this.props.location.state.blog_title}</span>
+            </h2>
+            <hr></hr>
+            <img
+              class="img-responsive"
+              id="center"
+              src={this.props.location.state.media.url}
+              alt=""
+            />
+            <p>{this.props.location.state.blog_content}</p>
+            <Link to={"/blog"}>Return back...</Link>
           </div>
         </section>
         <div className="card">
