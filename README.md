@@ -17,4 +17,8 @@ You can check the [live demo](https://hopeful-nobel-47d909.netlify.com/) to get 
 
 ## Documentation
 
+Read Contentstack [docs](https://www.contentstack.com/docs/)
+
+Learn about [React.js](https://reactjs.org/)
+
 
