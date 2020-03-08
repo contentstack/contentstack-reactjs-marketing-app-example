@@ -14,6 +14,9 @@ You can check the [live demo](https://hopeful-nobel-47d909.netlify.com/) to get 
 
 ## Tutorial
 
+We have created an in-depth tutorial on how you can create a website using ReactJS framework. By following the steps given in the tutorial, design a website similar to the one given in the demo.
+
+[Create a marketing website using ReactJS framework](https://www.contentstack.com/docs/developers/sample-apps/build-a-marketing-app-using-contentstack-and-react-js)
 
 ## Documentation
 
