@@ -54,24 +54,19 @@ class Product extends Component {
       $header.find(".logo > img").attr("src", $logoAlt);
     }
 
-    $(window).on("scroll", function() {
+    $(window).on("scroll", function () {
       if (
         window.location.pathname != "/features" &&
         window.location.pathname != "/about" &&
-        window.location.pathname != "/blog"
+        window.location.pathname != "/blog" &&
+        !window.location.pathname.includes("/blog/")
       ) {
-        if (
-          window.location.pathname.split("/")[1] !== "/blog" &&
-          window.location.pathname.split("/")[2] === "" &&
-          window.location.pathname.split("/")[2] === undefined
-        ) {
-          if ($(window).scrollTop() > 100) {
-            $header.fadeIn().addClass("opaque");
-            $header.find(".logo > img").attr("src", $logoDefault);
-          } else {
-            $header.removeClass("opaque");
-            $header.find(".logo > img").attr("src", $logoAlt);
-          }
+        if ($(window).scrollTop() > 100) {
+          $header.fadeIn().addClass("opaque");
+          $header.find(".logo > img").attr("src", $logoDefault);
+        } else {
+          $header.removeClass("opaque");
+          $header.find(".logo > img").attr("src", $logoAlt);
         }
       }
     });
