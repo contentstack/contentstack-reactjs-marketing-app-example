@@ -1,7 +1,10 @@
 {
-  "name": "market",
-  "version": "0.1.0",
+  "name": "market-react-application",
+  "version": "1.0.0",
+  "description": "This is an example website using reactjs and contentstack",
   "private": true,
+  "license": "MIT",
+  "author": "Contentstack",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.3",
