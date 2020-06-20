@@ -26,7 +26,7 @@ class Product extends Component {
 
   componentDidMount() {
     getData(
-      `https://cdn.contentstack.io/v3/content_types/${process.env.REACT_APP_PRODUCT_CONTENT_TYPE}/entries/${process.env.REACT_APP_PRODUCT_ENTRY_UID}?environment=${process.env.REACT_APP_PUBLISH_ENVIRONMENT}&locale=en-us`
+      `${process.env.REACT_APP_ABOUT_BASE_REGION_URL}content_types/${process.env.REACT_APP_PRODUCT_CONTENT_TYPE}/entries/${process.env.REACT_APP_PRODUCT_ENTRY_UID}?environment=${process.env.REACT_APP_PUBLISH_ENVIRONMENT}&locale=en-us`
     )
       .then(data => {
         this.setState(

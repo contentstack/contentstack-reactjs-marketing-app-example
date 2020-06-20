@@ -27,7 +27,7 @@ class Home extends Component {
 
   componentDidMount() {
     getData(
-      `https://cdn.contentstack.io/v3/content_types/${process.env.REACT_APP_HOME_CONTENT_TYPE}/entries/${process.env.REACT_APP_HOME_ENTRY_UID}?environment=${process.env.REACT_APP_PUBLISH_ENVIRONMENT}&locale=en-us`
+      `${process.env.REACT_APP_ABOUT_BASE_REGION_URL}content_types/${process.env.REACT_APP_HOME_CONTENT_TYPE}/entries/${process.env.REACT_APP_HOME_ENTRY_UID}?environment=${process.env.REACT_APP_PUBLISH_ENVIRONMENT}&locale=en-us`
     )
       .then(data => {
         this.setState({
@@ -137,20 +137,6 @@ class Home extends Component {
                   >
                     <span aria-hidden="true">×</span>
                   </button>
-                </div>
-                <div className="modal-content">
-                  <div className="modal-body">
-                    <div
-                      className="embed-responsive embed-responsive-16by9"
-                      id="yt-player"
-                    >
-                      <img className="img-responsive" src="img/hero-bg.jpg" />
-                      <iframe
-                        className="embed-responsive-item"
-                        src="http://player.vimeo.com/video/27408483?title=0&byline=0&portrait=0&color=ffffff"
-                      ></iframe>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
