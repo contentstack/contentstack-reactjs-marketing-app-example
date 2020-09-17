@@ -1,7 +1,7 @@
 {
-  "name": "market-react-application",
+  "name": "marketing-reactjs-sample-app",
   "version": "1.0.0",
-  "description": "This is an example website using reactjs and contentstack",
+  "description": "This is an example marketing website using reactjs and Contentstack",
   "private": true,
   "license": "MIT",
   "author": "Contentstack",
